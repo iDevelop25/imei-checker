@@ -95,7 +95,7 @@ input[type=date] { -moz-appearance:textfield; }
     justify-content: space-evenly;
     background-color: var(--primary);
     color: var(--white);
-    height: 70vh;
+    min-height: 70vh;
     border-radius: 0 0 3em 3em;
 }
 .container__text__check{
