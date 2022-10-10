@@ -1,0 +1,175 @@
+:root{
+    --primary: #3B848C;
+    --secondary: #3180ff;
+    --info: #05F2DB;
+    --light: #f8f9fa;
+    --dark: #0D0D0D;
+    --white: #fff;
+    --black: #111;
+    --danger: #dd2c00;
+
+    --main-font: 'Raleway', sans-serif;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: var(--white);
+    font-family: var(--main-font);
+}
+/*Eliminando decodadores input type number*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+input[type=number] { -moz-appearance:textfield; }
+
+
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+input[type=date] { -moz-appearance:textfield; }
+
+.header__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brand__container{
+    display: flex;
+    margin: 2em 0;
+}
+.brand__text__container p{
+    color: var(--primary);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    line-height: 0.2;
+    font-weight: 700;
+}
+.header__brand img{
+    width: 5em;
+}
+.header__nav{
+    font-size: 1.2rem;
+    padding: 1em;
+}
+.nav__link{
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 0.5em;
+    font-weight: 700;
+    border-radius: 0.3em;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.nav__link--registro{
+    background-color: var(--danger);
+}
+.nav__link--login{
+    background-color: var(--secondary);
+}
+.nav__link:hover{
+    background-color: var(--dark);
+}
+
+.main__container__check{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--primary);
+    color: var(--white);
+    height: 70vh;
+    border-radius: 0 0 3em 3em;
+}
+.container__text__check{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.container__text__check h2{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.container__text__check p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.form {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form__input__imei, .btn__check{
+    width: 80%;
+    padding: 1.2em;
+    border-radius: 3em;
+    border: none;
+    margin-bottom: 1em;
+}
+.form__input__imei{
+    appearance: none;
+}
+.btn__check{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--dark);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn__check:hover{
+    background-color: rgba(255, 255, 255, 0.178);
+    color: var(--black);
+}
+
+.social__container{
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 20em;
+    border-radius: 3em;
+    margin: 3em auto;
+    padding: 0.1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn__you, .btn__tiwt{
+    background-image: url('../assets/img/youtubeLogo.svg');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    width: 3em;
+    height: 3em;
+    margin: 0.3em;
+}
+.btn__tiwt{
+    background-image: url('../assets/img/twitterLogo.svg')
+}
+
+.info__container, .footer{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer, .info__politicas__container{
+    text-transform: uppercase;
+}
