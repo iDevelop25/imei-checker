@@ -136,7 +136,7 @@ input[type=date] { -moz-appearance:textfield; }
 }
 .form__input__imei, .btn__check{
     width: 80%;
-    padding: 1.2em;
+    padding: 1.3em;
     border-radius: 3em;
     border: none;
     margin-bottom: 1em;
