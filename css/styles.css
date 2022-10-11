@@ -107,7 +107,7 @@ input[type=date] { -moz-appearance:textfield; }
     color: var(--white);
     padding: 0.5em;
     font-weight: 700;
-    border-radius: 0.3em;
+    border-radius: 3em;
     text-transform: uppercase;
     transition: 0.5s;
 }
