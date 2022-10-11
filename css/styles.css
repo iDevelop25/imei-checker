@@ -184,8 +184,13 @@ input[type=date] { -moz-appearance:textfield; }
     margin-bottom: 1em;
 }
 @media (min-width: 768px) { 
-    .form-input__imei, .btn__check{
+    .form__input__imei, .btn__check{
         padding: 1.28em;
+    }
+}
+@media (min-width: 1200px){ 
+    .form__input__imei{
+        padding: 1.33em;
     }
 }
 .form__input__imei{
@@ -216,6 +221,11 @@ input[type=date] { -moz-appearance:textfield; }
         max-width: 30rem;
         margin-left: -23.2em;
     }  
+}
+@media (min-width: 1200px){ 
+    .btn__check{
+        margin-left: -23.2em;
+    }
 }
 .btn__check:hover{
     background-color: rgba(255, 255, 255, 0.178);
@@ -261,6 +271,11 @@ input[type=date] { -moz-appearance:textfield; }
 @media (min-width: 768px) { 
     .info__container, .footer{
         font-size: 2em;
+    }
+}
+@media (min-width: 992px) { 
+    .info__container, .footer{
+        font-size: 2.5em;
     }
 }
 .footer, .info__politicas__container{
