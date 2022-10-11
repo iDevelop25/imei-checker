@@ -115,10 +115,21 @@ input[type=date] { -moz-appearance:textfield; }
     font-size: 2.5rem;
     text-transform: uppercase;
 }
+@media (min-width: 768px) { 
+    .container__text__check h2{
+        font-size: 5em;
+    }
+}
+
 .container__text__check p{
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 1.8;
+}
+@media (min-width: 768px){ 
+    .container__text__check p{
+        font-size: 1.6em;
+    }
 }
 
 /* Form */
@@ -140,6 +151,11 @@ input[type=date] { -moz-appearance:textfield; }
     border-radius: 3em;
     border: none;
     margin-bottom: 1em;
+}
+@media (min-width: 768px) { 
+    .form-input__imei, .btn__check{
+        padding: 1.28em;
+    }
 }
 .form__input__imei{
     appearance: none;
