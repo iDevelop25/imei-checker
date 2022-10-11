@@ -88,6 +88,11 @@ input[type=date] { -moz-appearance:textfield; }
         width: 8em;
     }
 }
+@media (min-width: 992px) { 
+    .header__brand img{
+        width: 10em;
+    }
+}
 .header__nav{
     font-size: 1.2rem;
     padding: 1em;
@@ -105,6 +110,12 @@ input[type=date] { -moz-appearance:textfield; }
     border-radius: 0.3em;
     text-transform: uppercase;
     transition: 0.5s;
+}
+@media (min-width: 992px) { 
+    .nav__link{
+        margin-left: 1em;
+        padding: 1em;
+    }
 }
 .nav__link--registro{
     background-color: var(--danger);
@@ -199,6 +210,12 @@ input[type=date] { -moz-appearance:textfield; }
         margin-left: -15.47em;
         z-index: 1;
     }
+}
+@media (min-width: 992px){ 
+    .btn__check{
+        max-width: 30rem;
+        margin-left: -23.2em;
+    }  
 }
 .btn__check:hover{
     background-color: rgba(255, 255, 255, 0.178);
