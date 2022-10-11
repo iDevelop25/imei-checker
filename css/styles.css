@@ -160,7 +160,7 @@ input[type=date] { -moz-appearance:textfield; }
 @media (min-width: 768px){ 
     .btn__check{
         max-width: 20rem;
-        margin-left: -15.5em;
+        margin-left: -15.47em;
         z-index: 1;
     }
 }
@@ -171,6 +171,7 @@ input[type=date] { -moz-appearance:textfield; }
 @media (min-width: 768px){ 
     .btn__check:hover{
         background-color: var(--primary);
+        color: var(--white);
     }
 }
 
