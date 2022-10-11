@@ -160,7 +160,7 @@ input[type=date] { -moz-appearance:textfield; }
 @media (min-width: 768px){ 
     .btn__check{
         max-width: 20rem;
-        margin-left: -15.6em;
+        margin-left: -15.5em;
         z-index: 1;
     }
 }
