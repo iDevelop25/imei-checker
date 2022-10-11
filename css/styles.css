@@ -168,6 +168,11 @@ input[type=date] { -moz-appearance:textfield; }
     background-color: rgba(255, 255, 255, 0.178);
     color: var(--black);
 }
+@media (min-width: 768px){ 
+    .btn__check:hover{
+        background-color: var(--primary);
+    }
+}
 
 /* Social */
 .social__container{
