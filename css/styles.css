@@ -63,6 +63,11 @@ input[type=date] { -moz-appearance:textfield; }
     display: flex;
     margin: 2em 0;
 }
+@media (min-width: 768px){ 
+    .brand__container{
+        align-items: center;
+    }
+}
 .brand__text__container p{
     color: var(--primary);
     font-size: 1.6rem;
@@ -70,12 +75,27 @@ input[type=date] { -moz-appearance:textfield; }
     line-height: 0.2;
     font-weight: 700;
 }
+@media (min-width: 768px) { 
+    .brand__text__container p{
+        font-size: 1.8em;
+    }
+}
 .header__brand img{
     width: 5em;
+}
+@media (min-width: 768px) { 
+    .header__brand img{
+        width: 8em;
+    }
 }
 .header__nav{
     font-size: 1.2rem;
     padding: 1em;
+}
+@media (min-width: 768px) { 
+    .header__nav{
+        font-size: 1.6em;
+    }
 }
 .nav__link{
     background-color: var(--primary);
